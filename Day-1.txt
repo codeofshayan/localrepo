@@ -27,7 +27,16 @@ Get inside the desired repo
         - This renames the name of the existing branch.
     > git push origin main
         - push the local repo to the remote repo
-
-
-    
-    
+    > git push -u origin main
+        - (-u) : means set up streams
+        - we are using the "-u" as flag
+        - (-u) is a universal flag that says "I'll be pushing to the origin main always"
+        - what happens from next time you can use only "git push" to push your file to the origin main
+        - we use this if we have a very long application and every time we are commiting then this helps us to reduce that load.
+    > git push
+        - can only be used after you have flagged with the universal flag.
+    > we can create : README.md file
+        - in the VS code locally
+    > git pull origin main
+        - If some modification is made on the remote side.
+        - By doing this you are updating you local repo by fetching latest pull from the origin itself.
