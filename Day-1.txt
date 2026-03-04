@@ -1,0 +1,33 @@
+============= Now we will learn to Create a remote repo from local
+
+Get inside the desired repo
+    > ls -a 
+        - shows all the hidden file. 
+        - *Remember the git initialized file will have ".git/" hidden folder contains
+        - .git/ is the folder that git uses to helps you in tracking the git repo 
+        - after init you can use this to test wether the repo is initialized or not
+    > git init
+        - It will give similar prompt like this (Initialized empty Git repository in C:/Users/Shayan/Desktop/Learning git/Local-repo/.git/)
+        - Your local repo has has initialized the remote repo.
+        - i.e remote repo has been created
+    > we will go to github UI
+        - create new repo, without readme file
+        - once the repo is created you can see all the basic steps are given to you.
+    > git remote add origin <-link->
+        - we are asking to add a remote whose name will be origin and assigning URL as your origin.
+        - git remote add origin https://github.com/codeofshayan/localrepo.git
+    > git remote -v
+        - to verify the remote repo
+    > git branch
+        - Tells you on which branch you are.
+        - * star denotes which branch you are on.
+        - master is the default branch
+    > git branch -M main
+        - git branch -M <-new main-> 
+        - This renames the name of the existing branch.
+    > git push origin main
+        - push the local repo to the remote repo
+
+
+    
+    
